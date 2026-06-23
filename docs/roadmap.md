@@ -13,7 +13,7 @@
 
 * [ ] Logistic Regression
 * [ ] Naive Bayes
-* [*] KNN
+* [x] KNN
 * [ ] SVM
 
 ---

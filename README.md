@@ -20,7 +20,7 @@ notebooks/ # Jupyter notebooks
 
 * [ ] Linear Regression
 * [ ] Logistic Regression
-* [*] KNN
+* [x] KNN
 * [ ] Decision Tree
 * [ ] Random Forest
 * [ ] SVM
