@@ -2,10 +2,7 @@
 
 kNN is an algorithm for supervised learning that simply stores
 the labeled training examples,
-$
-\left(\{x^{[i]}, y^{[i]}\} \in \mathcal{D}
-\quad (|\mathcal{D}| = n)\right),
-$
+$\left(\{x^{[i]}, y^{[i]}\} \in \mathcal{D} \quad (|\mathcal{D}| = n)\right)$
 during the training phase. For this reason, kNN is also called a lazy learning algorithm.
 What it means to be a lazy learning algorithm is that the processing of the training examples
 is postponed until making predictions again, the training consists literally of just storing
