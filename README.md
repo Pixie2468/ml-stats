@@ -31,12 +31,12 @@ The goal of this repository is to deeply understand how machine learning algorit
 * [ ] Regularized Regression (Ridge, Lasso)
 * [ ] Logistic Regression (Binary & Multinomial)
 * [ ] Naive Bayes
-* [] KNN (Brute-force & KD-Tree)
+* [ ] KNN (Brute-force & KD-Tree)
 * [ ] SVM (Linear & Kernel)
 
 ### Tree-Based Models
 
-* [] Decision Trees (ID3, C4.5, CART)
+* [ ] Decision Trees (ID3, C4.5, CART)
 * [ ] Bagging Ensembles (Random Forest, Extra Trees)
 * [ ] Boosting Ensembles (AdaBoost, GBM, XGBoost)
 

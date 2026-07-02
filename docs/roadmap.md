@@ -21,9 +21,9 @@
   * [ ] Gaussian NB
   * [ ] Multinomial NB
   * [ ] Bernoulli NB
-* [] **KNN**
-  * [] Brute-force KNN
-  * [] KD-Tree implementation
+* [ ] **KNN**
+  * [ ] Brute-force KNN
+  * [ ] KD-Tree implementation
 * [ ] **SVM**
   * [ ] Linear SVM (Hinge Loss)
   * [ ] Kernel SVM (SMO algorithm, RBF/Poly kernels)
@@ -34,9 +34,9 @@
 
 ### Decision Trees
 
-* [] ID3 (Entropy & Information Gain)
-* [] C4.5 (Gain Ratio)
-* [] CART (Gini Impurity & MSE)
+* [ ] ID3 (Entropy & Information Gain)
+* [ ] C4.5 (Gain Ratio)
+* [ ] CART (Gini Impurity & MSE)
 
 ### Bagging Ensembles
 
