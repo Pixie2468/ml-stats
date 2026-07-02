@@ -7,38 +7,54 @@ The goal of this repository is to deeply understand how machine learning algorit
 ## Repository Structure
 
 ```text
-scratch/   # First-principles implementations
-practical/ # Implementations using established ML libraries
-docs/      # Learning notes and explanations
-utils/     # Shared utilities
-notebooks/ # Jupyter notebooks
+├── docs/             # Learning notes and explanations
+├── notebooks/        # Jupyter notebooks for prototyping and visualization
+├── src/              # Source code (First-principles implementations & utils)
+│   ├── algorithms/   # From-scratch implementations
+│   └── utils/        # Shared utility functions
+├── practical/        # Implementations using established ML libraries
+├── .gitignore
+├── .python-version
+├── main.py           # Application entry point
+├── pyproject.toml    # Project metadata and dependencies
+├── README.md
+└── uv.lock           # Lockfile for deterministic builds
 ```
 
-## Progress
+## Progress Snapshot
 
-### Supervised Learning
+*(For the comprehensive checklist, see `roadmap.md`)*
 
-* [ ] Linear Regression
-* [ ] Logistic Regression
-* [x] KNN
-* [ ] Decision Tree
-* [ ] Random Forest
-* [ ] SVM
+### Mathematical Foundations
+
+* [ ] Linear Regression (OLS & GD)
+* [ ] Regularized Regression (Ridge, Lasso)
+* [ ] Logistic Regression (Binary & Multinomial)
+* [ ] Naive Bayes
+* [] KNN (Brute-force & KD-Tree)
+* [ ] SVM (Linear & Kernel)
+
+### Tree-Based Models
+
+* [] Decision Trees (ID3, C4.5, CART)
+* [ ] Bagging Ensembles (Random Forest, Extra Trees)
+* [ ] Boosting Ensembles (AdaBoost, GBM, XGBoost)
 
 ### Unsupervised Learning
 
-* [ ] K-Means
+* [ ] K-Means & K-Means++
+* [ ] Hierarchical Clustering
 * [ ] DBSCAN
-* [ ] PCA
-* [ ] Gaussian Mixture Models
+* [ ] GMM
+* [ ] PCA & t-SNE
 
-### Deep Learning
+### Deep Learning & NLP
 
-* [ ] Perceptron
-* [ ] MLP
+* [ ] Perceptron & MLP
 * [ ] CNN
-* [ ] RNN
-* [ ] Transformer
+* [ ] RNN, LSTM, GRU
+* [ ] Attention & Transformers
+* [ ] TF-IDF & Word2Vec
 
 ## Philosophy
 

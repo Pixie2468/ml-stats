@@ -1,7 +1,7 @@
 [project]
 name = "ml-stats"
 version = "0.1.0"
-description = "Add your description here"
+description = "Machine Learning algorithms implemented from scratch and practical applications."
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
@@ -12,3 +12,30 @@ dependencies = [
     "scikit-learn>=1.9.0",
     "torch>=2.12.1",
 ]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",         
+    "pytest-cov>=4.1.0",     
+    "ipykernel>=6.29.0",     
+    "ruff>=0.3.0",           
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mlstats"]
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "I", "N", "W", "B"]
+ignore = [
+    "N803", # Allows uppercase variables in function arguments (e.g., def fit(self, X, y))
+    "N806", # Allows uppercase variables inside functions (e.g., X_train, Matrix inputs)
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
